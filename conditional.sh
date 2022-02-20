@@ -27,6 +27,7 @@ else
 fi
 '
 
+: '
 age=51
 
 if [ "$age" -gt 18 -o "$age" -lt 40 ]
@@ -35,3 +36,4 @@ then
 else
     echo "age is not correct!"
 fi
+'
